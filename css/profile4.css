@@ -1,0 +1,213 @@
+:root {
+  /* Green palette */
+  --green-50:  #e6f5e6;
+  --green-100: #cfeccf;
+  --green-200: #a9e2a9;
+  --green-300: #79d17a;
+  --green-400: #49b65a;
+  --green-500: #2a9a3a;
+  --green-600: #218a31;
+  --green-700: #1c7a2b;
+  --green-800: #165f22;
+  --green-900: #124b1b;
+
+  --bg: #ffffff;
+  --text: #1f2b21;
+  --muted: #4b5a46;
+
+  --surface: #ffffff;
+  --surface-2: #f7fbf7;
+
+  --shadow: 0 8px 20px rgba(0,0,0,.06);
+  --radius: 12px;
+
+  --focus-outline: 0 0 0 3px rgba(41, 166, 58, 0.35);
+}
+
+/* RESET */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+/* LAYOUT */
+.container {
+  width: min(1100px, 92%);
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.25rem;
+}
+
+/* TYPOGRAPHY */
+h1, h2, h3, h4, h5 {
+  margin: 0 0 0.5rem;
+  line-height: 1.15;
+}
+
+h1 { font-size: 2.25rem; color: var(--green-700); }
+h2 { font-size: 1.75rem; color: var(--green-600); }
+h3 { font-size: 1.25rem; color: var(--green-500); }
+
+p {
+  color: var(--muted);
+}
+
+/* LINKS */
+a {
+  color: var(--green-500);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+strong {
+  color: var(--text);
+}
+
+/* BUTTON */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.25rem;
+  border-radius: 999px;
+  border: none;
+  background: var(--green-500);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* CARD */
+.card {
+  background: var(--surface);
+  padding: 1rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border: 1px solid rgba(0,0,0,.04);
+}
+
+/* NAVBAR */
+.navbar {
+  position: sticky;
+  top: 0;
+  background: white;
+  border-bottom: 1px solid #eef0e9;
+  z-index: 50;
+}
+
+.navbar .container {
+  justify-content: space-between;
+  padding: 0.75rem 0;
+}
+
+.brand {
+  font-weight: 700;
+  color: var(--green-700);
+}
+
+.nav-links {
+  display: flex;
+  gap: 0.75rem;
+}
+
+/* HERO */
+.hero {
+  padding: 4rem 0;
+  background: linear-gradient(135deg, var(--green-50), var(--green-100) 60%, #fff 60%);
+}
+
+.hero-content {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.hero p {
+  text-align: justify;
+  font-size: 1.05rem;
+}
+
+/* SECTION */
+.section {
+  padding: 3rem 0;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  color: var(--green-700);
+  margin-bottom: 0.75rem;
+}
+
+/* TABLE */
+.edu-table {
+  width: 100%;
+  max-width: 700px;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background: var(--surface);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.edu-table th,
+.edu-table td {
+  padding: 0.9rem 1.2rem;
+  text-align: left;
+}
+
+/* HEADER ROW */
+.edu-table tr:first-child th {
+  background: var(--green-100);
+  color: var(--green-800);
+  font-weight: 600;
+}
+
+/* ROW SEPARATION */
+.edu-table tr:not(:last-child) td {
+  border-bottom: 1px solid var(--green-100);
+}
+
+/* HOVER */
+.edu-table tr:hover td {
+  background: var(--green-50);
+}
+
+/* FIRST COLUMN */
+.edu-table td:first-child {
+  font-weight: 600;
+  color: var(--green-700);
+}
+
+/* LINKS */
+.links a {
+  display: block;
+  margin: 10px 0;
+  color: var(--green-600);
+}
+
+.links a:hover {
+  text-decoration: underline;
+}

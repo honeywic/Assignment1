@@ -1,104 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rukia's Page</title>
+  <link rel="stylesheet" type="text/css" href="../css/profile4.css">
 </head>
 <body>
-    
-    <!--Basic bio about my personal information-->
 
-    <p><strong><h1><center>PERSONAL INFORMATION</center></h1></strong></p>
-    <p><h2><b>BIOGRAPHY</b></h2></p>
-    <p align="justify"><h7>Rukia Kanal Senga is a first-year student pursuing a Bachelor of Science in Computer Science at the University of Dar es Salaam (UDSM). She is currently focusing on building 
+  <header class="navbar" aria-label="Main navigation">
+    <nav class="container flex" style="justify-content: space-between;">
+
+      <div class="brand" aria-label="Brand">
+        <span>PERSONAL INFORMATION</span>
+      </div>
+
+      <div class="nav-links">
+        <a href="contact.html" target="_blank" class="btn" style="padding:.5rem 1rem;">Contact</a>
+      </div>
+
+    </nav>
+  </header>
+
+  <section class="hero" id="home" aria-label="Intro">
+    <div class="container hero-content">
+      <div>
+        <h1>BIOGRAPHY</h1>
+        <p align="justify"> Rukia Kanal Senga is a first-year student pursuing a Bachelor of Science in Computer Science at the University of Dar es Salaam (UDSM). She is currently focusing on building 
        her understanding of web programming and core computing concepts as part of her coursework.
        As part of her studies, she is working on developing basic web-based projects and gaining 
        practical experience in designing and creating simple applications. This website is one of
        the projects she has developed during her learning process. Rukia is continuing to develop
-       her skills step by step as she progresses through her degree program.</h7></p><br>
+       her skills step by step as she progresses through her degree program. </p>
+      </div>
+      
+      <div class="card" aria-label="Intro image placeholder">
+        <div style="height:180px; background: linear-gradient(135deg, var(--green-200), var(--green-100)); border-radius: 12px;">
+          <a href="mailto:rukiyasenga16@gmail.com"> <img src="../images/pic.jpg" alt="Profile picture" style="width:100%; height:100%; object-fit:cover; border-radius:12px;"> </a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Skiils are written using ordered list -->
+  <section class="section" id="features" aria-label="Features">
+    <div class="container">
+      <div class="section-title"><h2>HOBBIES</h2></div>
+      <div class="grid" style="grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));">
+        <div class="card">
+          <div class="card-header">
+            <strong>Academics</strong>
+          </div>
+          <p>I love learning new languages either its a programming language or other speaking language 
+                like chinese or arabic</p>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <strong>Sports</strong>
+          </div>
+          <p>I like sports like running, cycling, swimming or any form of exercise that tones and keep my body healthy</p>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <strong>Adventure</strong>
+          </div>
+          <p>I love travelling to multiple places to experience new life, culture and envision reality in new spaces</p>
+        </div>
 
-       <h2><b>SKILLS</b></h2>
-       <ol type="1">
-        <li>I can speak basic mandarin chinese (HSK 3, In progress)</li>
-        <li>I am athletic as in I can swim, cycle and run</li>
-        <li>I can sew various degign of clothes</li>
-        <li>I can build simple websites</li>
-        <li>I am good at Problem-Solving</li>
-        </ol> <br> <br> 
+         <div class="card">
+          <div class="card-header">
+            <strong>Activities</strong>
+          </div>
+          <p>I love cooking a new dish, I like spending time alone, I love star gazing and I also love playing puzzles</p>
+        </div>
 
-        <!-- colspan was used to merge the first 3 columns -->
-        <table border="3" height="300" width="700"> 
+      </div>
+    </div>
+  </section>
 
-            <tr>
-                <th colspan="3"> EDUCATIONAL BACKGROUND </th>
-            </tr>
+  <section class="section" id="features" aria-label="Features">
+    <div class="container">
+      <div class="section-title"><h2>SKILLS</h2></div>
+      <div class="grid" style="grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));">
+        <div class="card">
+          <div class="card-header">
+            <strong>Proficiency</strong>
+          </div>
+          <p>I can speak basic mandarin chinese (HSK 3, In progress)</p>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <strong>Sports</strong>
+          </div>
+          <p>I am athletic as in I can swim, cycle and run</p>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <strong>Crafts</strong>
+          </div>
+          <p>I can sew various designs of clothes</p>
+        </div>
 
-            <tr>
-                <th> LEVEL </th>
-                <th> SCHOOL </th>
-                <th> YEAR </th>
-            </tr>
+         <div class="card">
+          <div class="card-header">
+            <strong>Programming</strong>
+          </div>
+          <p>I can build simple websites</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-            <tr>
-                <td> &nbsp; &nbsp; PRIMARY SCHOOL</td>
-                <td> &nbsp; &nbsp; AL-MUNTAZIR PRIMARY SCHOOL</td>
-                <td> &nbsp; &nbsp; 2011 - 2017</td>
-            </tr>
+  <section class="section" id="contact" aria-label="Contact">
+    <div class="container">
+      <h2 class="section-title">EDUCATIONAL BACKGROUND</h2>
 
-            <tr>
-                <td> &nbsp; &nbsp; SECONDARY SCHOOL</td>
-                <td> &nbsp; &nbsp; BAOBAB SECONDARY SCHOOL</td>
-                <td> &nbsp; &nbsp; 2018 - 2021</td>
-            </tr>
+      <table class="edu-table">
 
-            <tr>
-                <td> &nbsp; &nbsp; COLLEGE</td>
-                <td> &nbsp; &nbsp; UNIQUE ACADEMY</td>
-                <td> &nbsp; &nbsp; 2022 - 2025</td>
-            </tr>
+    <tr>
+        <th>LEVEL</th>
+        <th>SCHOOL</th>
+        <th>YEAR</th>
+    </tr>
 
-            <tr>
-                <td> &nbsp; &nbsp; UNIVERSITY</td>
-                <td> &nbsp; &nbsp; UNIVERSITY OF DAR ES SALAAM</td>
-                <td> &nbsp; &nbsp; 2025 - Present</td>
-            </tr>
+    <tr>
+        <td>Primary School</td>
+        <td>Al-Muntazir Primary School</td>
+        <td>2011 - 2017</td>
+    </tr>
 
-        </table> <br>
+    <tr>
+        <td>Secondary School</td>
+        <td>Baobab Secondary School</td>
+        <td>2018 - 2021</td>
+    </tr>
 
-        <!-- Descriptive list was used to list hobbies in a descriptive manner -->
-        <h3>HOBBIES</h3>
-        <dl>
-            <dt>Academics</dt>
-            <dd>I love learning new languages either its a programming language or other speaking language 
-                like chinese or arabic not only that but also I love learning about human psychology and human skin </dd>
-            
-            <dt>Sports</dt>
-            <dd>I like sports like running, cycling, swimming or any form of exercise that tones and keep my body healthy</dd>
-            
-            <dt>Adventure</dt>
-            <dd>I love travelling to multiple places to experience new life, culture and envision reality in new spaces</dd>
+    <tr>
+        <td>College</td>
+        <td>Unique Academy</td>
+        <td>2022 - 2025</td>
+    </tr>
 
-            <dt>Activities</dt>
-            <dd>I love cooking a new dish, I like spending time alone, I love star gazing and I also love playing puzzles </dd>
-            </dl><br>
+    <tr>
+        <td>University</td>
+        <td>University of Dar es Salaam</td>
+        <td>2025 - Present</td>
+    </tr>
+</table>
 
-        <!-- links of two images using image path-->
-        <h2><b>IMAGE SECTION</b></h2>
-        <img src ="../images/pic.jpg" width="400" height="200" alt="Personal Photo">
+<br>
+<div class="links">
+    <h2>MY FAVORITE LINKS</h2>
 
-        <!-- used a href to list my favorite links -->
-        <h2><b>MY FAVORITE LINKS</b></h2>
-        <a href="https://www.youtube.com/" target="_blank">YOUTUBE</a> <br> <br>
-        <a href="https://www.bing.com/ck/a?!&&p=a2537eb762c1158612bf43c90aef4937a8d746aefe5fd0263bb15ea35a7e22dbJmltdHM9MTc3NjkwMjQwMA&ptn=3&ver=2&hsh=4&fclid=2d2b2447-99f0-6388-0fcf-32be98f762dd&psq=github&u=a1aHR0cHM6Ly9naXRodWIuY29tL2xvZ2lu" target="_blank">GITHUB</a> <br> <br>
-        <a href="https://coolors.co/" target="_blank">COLOR WEBSITE FOR DESIGN</a> <br> 
+    <a href="https://www.youtube.com/" target="_blank">YouTube</a>
+    <a href="https://github.com/login" target="_blank">GitHub</a>
+    <a href="https://coolors.co/" target="_blank">Color Design Website</a>
+</div>
 
-        <h2><b>CONTACT ME:</b></h2> 
-        <a href="mailto:rukiyasenga16@gmail.com"> <img src="../images/screenshot.png" width="400" height="200"> </a>
-        
-
-
+</div>
+</section>
 </body>
 </html>
