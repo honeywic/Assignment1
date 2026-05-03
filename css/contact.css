@@ -1,0 +1,145 @@
+/* General Reset and Body Styling */
+body {
+    font-family: Kippax, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f4f7f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: 16fr 16fr;
+    gap: 20px;
+}
+
+a {
+    color: #0288d1;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #01579b;
+    text-decoration: underline;
+}
+
+/* Header Styling */
+h4 {
+    font-size: 1.5rem;
+    color: #0277bd;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #d1d9e0;
+    margin-bottom: 30px;
+}
+
+/* Contact Cards Container */
+/* Note: This styles the <p> tags containing contact info as cards */
+p {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border-left: 5px solid #0288d1;
+    transition: transform 0.2s;
+}
+
+p:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Container Styling */
+form {
+    max-width: 600px;
+    margin: 0 auto 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Input Fields Styling */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    box-sizing: border-box;
+    /* Important for width */
+    font-size: 14px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #0288d1;
+    box-shadow: 0 0 0 3px rgba(2, 136, 209, 0.1);
+}
+
+/* Textarea specific */
+textarea {
+    resize: vertical;
+    font-family: inherit;
+}
+
+/* Radio and Checkbox Alignment */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Buttons */
+input[type="submit"],
+input[type="reset"] {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.1s;
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: #0288d1;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: #01579b;
+}
+
+input[type="reset"] {
+    background-color: #e9ecef;
+    color: #495057;
+}
+
+input[type="reset"]:hover {
+    background-color: #dee2e6;
+}
+
+input:active {
+    transform: scale(0.98);
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}

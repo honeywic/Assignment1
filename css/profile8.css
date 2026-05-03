@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    background-color: rgb(2, 2, 36);
+    color: whitesmoke;
+    line-height: 1.9;
+    padding: 20px 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: justify;
+}
+
+
+li ul{
+    margin-left: 40px;
+    padding-left :20px;
+    list-style-type: none;
+}
+.header{
+    transition:background-color 0.3s ease;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    color: rgb(12, 3, 3);
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+
+}
+.header:hover{
+    background-color: rgb(2, 2, 36);
+    color: whitesmoke;
+}
+
+.main-container{
+    
+    margin-top: 90px;
+    align-items: center;
+    padding:20px;
+    display:flex;
+    gap:50px;
+    font-family: 'Arial', cursive ;
+    
+}
+.skills-container{
+
+    list-style-type: none;
+    text-align: center;
+   justify-content: center; 
+    gap: 100px   ;
+    display: flex;
+    flex-wrap:wrap;
+}
+.skills-programming{
+    text-align: center;
+        justify-content: center;
+    padding: 10px;
+    border: 2px solid whitesmoke;
+    
+    border-radius: 20px;
+    flex:1;
+    width: 200px;
+    gap: 100px;
+    background-color: transparent;
+    list-style-type:
+    
+    
+}
+.skills-social{
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    flex:1;
+    width: 200px;
+    gap:100px;
+    background-color: transparent;
+    
+}
+
+
+.left{
+    flex:1px;
+    width: 700px;
+}
+.right pic{
+    flex:1px;
+    width: 800px;
+}
+.styled-table {
+    
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.styled-table th {
+  background-color:white;
+  color: black;
+  padding: 12px;
+  text-align: left;
+}
+
+.styled-table td {
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.links{
+    display: flex;
+    gap: 5px;
+;
+    align-items: center;
+    margin-top: 20px;
+border-radius: 90px ;
+}
+.hobbies-pics{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+

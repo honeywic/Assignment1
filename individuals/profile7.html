@@ -3,114 +3,158 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
+    <title>Joseph Portfolio - Web Developer</title>
+    
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-<h1><center>Welcome to My Portfolio</center></h1>
-
-<hr>
-<!--Navigation-->
-<a href="contact.html">Contact</a> 
-<a href="../index.html">Home</a> 
 
 
-<!--Personal Information-->
-    <P><strong><h1><center>PERSONAL INFORMATION</center></h1></strong></P>
-    <p><h2><b>Biography</b></h2></p>
-    My name is <b>Joseph Menard Mhema</b>, and I am a computer Science Student at the <b>university of Dar es Salaam</b> dedicated web developer with a strong passion for creating innovative work in software development and user-friendly websites. With my  background in computer science, I have honed my skills in various programming languages and frameworks likes HTML,Javascript,Php (Laravel),Python, Together with the skills in database development like MySQL, PostgreSQL allowing me to bring creative ideas to life on the web development. 
-    <P>I am committed to delivering high-quality projects that not only meet but exceed client expectations. Explore my portfolio to see some of my work and feel free to reach out if you would like to collaborate on a project or learn more about my experience and skills.
-    </P> <li>
+<!-- Navigation -->
+<nav>
+    <a href="../index.html">Home</a>
+    <a href="../individuals/contact.html">Contact</a>
+</nav>
+
+<!-- Main Container -->
+<div class="container glass-panel">
+    <header class="portfolio-header">
+        <h1>Welcome to My Portfolio</h1>
+        <p class="subtitle">Web Developer & Student</p>
+    </header>
+
+    <!-- Personal Information Section -->
+    <section class="section">
+        <div class="section-header">
+            <h2>Personal Information</h2>
+        </div>
+        <div class="bio-content">
     
-
-<!--Skills-->
-<li>
-    <h2><b>Skills</b></h2>
+    <img src="../images/jose.jpg" alt="Profile Picture" width="200">
+    
+    <h3>Biography</h3>
+    <p>My name is <strong>Joseph Menard Mhema</strong>, and I am a Computer Science Student at the <strong>University of Dar es Salaam</strong>. I am a dedicated web developer with a strong passion for creating innovative work in software development and user-friendly websites. With my background in computer science, I have honed my skills in various programming languages and frameworks including HTML, JavaScript, PHP (Laravel), and Python. I also possess strong database development skills with MySQL and PostgreSQL, allowing me to bring creative ideas to life in web development.</p>
+    
+    <p>I am committed to delivering high-quality projects that not only meet but exceed client expectations. Explore my portfolio to see some of my work and feel free to reach out if you would like to collaborate on a project or learn more about my experience and skills.</p>
+    
+        </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section class="section">
+        <div class="section-header">
+            <h2>Skills</h2>
+        </div>
+        
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Programming Languages</h3>
     <ul>
-        <li>Programming Languages:</li>
-        <ul>
-        <b>
         <li>HTML</li>
         <li>CSS</li>
         <li>JavaScript</li>
         <li>Python</li>
         <li>PHP (Laravel)</li>
-        </b>    
-        
-        </ul>
-        <dr>
-         <li>Database Management:</li>
-        <ul>
-         <b>
-        <li>MySQL</li>
-        <li>PostgreSQL</li>
-         </b>
-        
-        </ul>
-        </dr>
-       
-</li>
-
-<!--Education-->
-<hr>
-<h2><b>Education</b></h2>
-<table border="3" height="300" width="700">
-    <tr>
-        <th>Certification</th>
-        <th>School</th>
-        <th>Duration</th>
-    </tr>
-    <tr>
-        <td>O-Level</td>
-        <td>Pilgrim Secondary School</td>
-        <td>2016-2019</td>
-    </tr>
-    <tr>
-        <td>A-level</td>
-        <td>Sadan Boys secondary school</td>
-        <td>2020-2022</td>
-    </tr>
+    </ul>
     
-    <tr>
-        <td>Diploma in Computer Science</td>
-        <td>Institute of Finance and Management</td>
-        <td>2023-2025</td>
-    </tr>
-    <tr>
-        <td>Bachelor's Degree in Computer Science</td>
-        <td>University of Dar es salaam (UDSM)</td>
-        <td>To date</td>
-    </tr>
-</table>
+            </div>
+            
+            <div class="skill-category">
+                <h3>Database Management</h3>
+                <ul>
+                    <li>MySQL</li>
+                    <li>PostgreSQL</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-<!--Hobbies-->
-<h2><b>Hobbies/Interests</b></h2>
-<ul>
-    <li>Coding and Software Development</li>
-    <li>Web Design and Development</li>
-    <li>Exploring New Technologies</li>
-    <li>Playing Football</li>
-    <li>Reading Books</li>
+    <!-- Education Section -->
+    <section class="section">
+        <div class="section-header">
+            <h2>Education</h2>
+        </div>
+        <div class="table-container">
+            <table>
+                <tr>
+            <th>Certification</th>
+            <th>School</th>
+            <th>Duration</th>
+        </tr>
+        <tr>
+            <td>O-Level</td>
+            <td>Pilgrim Secondary School</td>
+            <td>2016-2019</td>
+        </tr>
+        <tr>
+            <td>A-level</td>
+            <td>Sadan Boys Secondary School</td>
+            <td>2020-2022</td>
+        </tr>
+        <tr>
+            <td>Diploma in Computer Science</td>
+            <td>Institute of Finance and Management</td>
+            <td>2023-2025</td>
+        </tr>
+        <tr>
+            <td>Bachelor's Degree in Computer Science</td>
+            <td>University of Dar es Salaam (UDSM)</td>
+            <td>To date</td>
+        </tr>
+    </table>
+            </table>
+        </div>
+    </section>
 
+    <!-- Hobbies/Interests Section -->
+    <section class="section">
+        <div class="section-header">
+            <h2>Hobbies & Interests</h2>
+        </div>
+        <ul class="hobbies-list">
+            <li>Coding and Software Development</li>
+        <li>Web Design and Development</li>
+        <li>Exploring New Technologies</li>
+        <li>Playing Football</li>
+        <li>Reading Books</li>
+        </ul>
+    </section>
 
-    <!--Images-->
-    <h2><b>Images</b></h2>
-    <img src="../images/data.WebP" width="190" alt="Photo">
-    <img src="../images/project-5.WebP" width="150" alt="Photo">
-   
+    <!-- Images Section -->
+    <section class="section">
+        <div class="section-header">
+            <h2>Portfolio Images</h2>
+        </div>
+        <div class="image-gallery">
+            <div class="gallery-item">
+                <img src="../images/service.jpg" alt="Portfolio Photo">
+            </div>
+            <div class="gallery-item">
+                <img src="../images/Na.jpg" alt="Project Portfolio Photo">
+            </div>
+        </div>
+    </section>
 
     <!--Favorite links-->
-    <h2><b>FAVORITE LINKS</b></h2>
-    <a href="http://www.github.com" target="_blank">My github account</a><br>
-    <a href="http://www.linkedin.com" target="_blank">My linkedin account</a><br>
-    <a href="http://www.ajiraportal.com" target="_blank">ajiraportal</a><br>
-    
-<a href="mailto:menardjoseph774@gmail.com"><img src="../images/manard.1.jpg" height="150">
-</a>
+    <section class="section">
+        <div class="section-header">
+            <h2>Favorite Links</h2>
+        </div>
+        <div class="links-container">
+            <a href="http://www.github.com" target="_blank" class="glow-button">My GitHub Account</a>
+            <a href="http://www.linkedin.com" target="_blank" class="glow-button">My LinkedIn Account</a>
+            <a href="https://portal.ajira.go.tz/" target="_blank" class="glow-button">Ajira Portal</a>
+        </div>
+        
+        <div class="contact-footer">
+            <p>Get in touch via email:</p>
+            <a href="https://mail.google.com/mail/u/0/" target="_blank" class="email-link">
+                <img src="../images/manard.1.jpg" alt="Email Me" class="avatar">
+            </a>
+        </div>
+    </section>
 
+</div> <!-- End of container -->
 
-
-
-   
-    
 </body>
 </html>

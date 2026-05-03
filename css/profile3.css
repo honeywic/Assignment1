@@ -1,0 +1,176 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+body {
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     background-color: #FCEFEF;
+     color: #ededed;
+     max-width: 900px;
+     margin: 30px auto;
+     padding:20px 40px;  
+     line-height: 1.6;
+}
+
+.header{
+     display:flex;
+     position: fixed;
+     padding: 15px 0%;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+     z-index: 100px;
+     gap: 10px;
+     top: 0;
+     left: 0;
+     width: 100%;
+     background-color: #7E6C6C;
+    
+}
+
+.top-right{
+     display: flex;
+     flex-wrap: wrap;
+     flex-shrink:0;
+     gap: 10px 25px;
+}
+
+.top-left h1{
+     color: #ededed;
+     text-decoration: none;
+     font-weight: 700;
+     font-size: 30px;
+}
+
+.top-right a{
+     color: #ededed;
+     text-decoration: none;
+     font-weight: 500;
+     transition: .2s;
+     font-size: 15px;
+}
+
+.top-right a:hover{
+
+     color: #8691CC;
+}
+
+.main-container{
+     padding-top:40px;
+     margin-top:0;
+}
+/* who is beatrice*/
+h1 {
+    color: #ffffff;
+    background:  #c2185b;
+    padding: 20px;
+    border-radius: 50px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+/*for each heading followed by descriptions*/
+h2 {
+    color: #c2185b;
+    border-bottom: 2px solid #e91e63;
+    padding-bottom: 6px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+}
+/*the bio paragraph*/
+ p {
+    font-size: 16px;
+    color: #4a2c2c;
+    display: block;
+}
+
+p {
+    background-color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+ul {
+    background-color: #ffffff;
+    padding: 15px 40px;
+    border-radius: 8px;
+    list-style-type: disc;
+}
+
+ul li {
+    padding: 4px ;
+    color: #6a1b3d;
+    font-weight: 500;
+}
+/* educational background*/
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 100%;
+    background-color: #ffffff;
+    border: 2px solid;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+th {
+    background-color: #c2185b;
+    color: #ffffff;
+    padding: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 1px solid #e91e63;
+}
+
+td {
+    padding: 12px 15px;
+    border: 1px solid #f8bbd0;
+    text-align: center;
+    color: #4a2c2c;
+}
+/*descriptive list of hobbies*/
+dl {
+    background-color: #ffffff;
+    padding: 20px 25px;
+    border-radius: 8px;
+}   
+/*intellectual & academic*/
+dt {
+    font-weight: bold;
+    color: #c2185b;
+    font-size: 17px;
+    margin-top: 10px;
+}
+/*describing my hobbies*/
+dd {
+    color: #4a2c2c;
+    font-style: italic;
+}
+/*links*/
+a {
+    color: #c2185b;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: #880e4f;
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #e91e63;
+    border-radius: 50%;
+    padding: 4px;
+    background-color: #ffffff;
+    transition: 0.2s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
