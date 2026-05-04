@@ -6,7 +6,7 @@
 
     <!--This is the title of the webpage-->
     <title>student portfolio </title>
-    <link rel="stylesheet" href="../css/profile5.css">
+    <link rel="stylesheet" href="/css/profile5.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@200..700&family=Playwrite+NZ+Guides&display=swap" rel="stylesheet">
@@ -14,42 +14,55 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@200..700&family=Playwrite+NZ+Guides&family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet">
 </head>
-<body>
-    <!--Personal Information-->
-    <center>
-    <h1><center><u>&#9830;MY PERSONAL PORTFOLIO&#9830;</u></center></h1>
-    <br><br>
-    </center>
 
+<body>
+    <div class="top-links">
+    <nav>
+    <a href="#top">Home</a>
+    <a href="#About">About</a>
+    <a href="#skills">Skills</a>
+    <a  href="#Education">Education</a>
+    <a href="#Contacts">Contacts</a>
+    </div>
+</nav>
+    <!--Personal Information-->
+    <section class="hero" >
+    <h1><center><b><u>&#9830;MY PERSONAL PORTFOLIO&#9830;</u></b></center></h1>
+    <h1><span> Jackline</span><span> Kadeha</span></h1>
+    <p>Computer Science Student at the University of Dar es salaam</p>
+    </section>
     <!--My biography-->
-    <h2>BIOGRAPHY</h2>
+    <div class="card">
+    <h2 id="About">BIOGRAPHY</h2>
     <p align="justify">
-         <h7>My name is Jackline Valentino Kadeha. I am a student at the University of Dar es salaam pursuing a degree in Computer science.I am twenty years old and currenty living in Dar es salaam.
+         <h4>My name is Jackline Valentino Kadeha. I am a student at the University of Dar es salaam pursuing a degree in Computer science.I am twenty years old and currenty living in Dar es salaam.
              I enjoy coding, reading, learning new skills and watching movies.I am always eager to learn new things and skills in life which will help me to be a better person and contribute positively to the society. 
              I posses different life skills such as communucation skills, problem solving skills, assertiveness, sympathy and empathy which help me to interact well with other people and solve different problems in life.
               I am a hardworking and dedicated student who is always willing to put in the effort to archieve my goals and succeed in my studies.
               I am also a team player who enjoys collaborating with others and learning from experiences.I am excited to continue learning diffent skills in computer science and become a technology expert. I  believe that with hardwork, determination and a positive attitude, I can overcome any challenges and archieve my goals in life.
-         </h7></p>
+         </h4></p>
+    </div>
 
     <!--Ordered list of my Skills-->
-    <h2><b>MY SKILLS</b></h2>
-    <ol type="num">
-        <li>Basic Programming skills</li>
-        <li>Basic skills in web development</li>
-        <li>Good communication skills</li>
-        <li>Problem solving skills</li>
-    </ol>
-
+    <section id ="skills">
+   <h2> MY SKILLS</h2>
+   <div class="grid">
+        <div class="card">Basic Programming skills</div>
+        <div class="card">Basic skills in web development</div>
+        <div class="card"> Good communication skills</div>
+        <div class="card">Problem solving skills</div>
+ </div>
+</section>
       <!--Educational background table-->
-      <p><h2><b><center>A TABLE SHOWING MY EDUCATIONAL BACKGROUND</center></b></h2></p>
+      <p><h2 id="Education"><center>A TABLE SHOWING MY EDUCATIONAL BACKGROUND</center></h2></p>
     <table border="2" cellpadding="10" height="300" width="500" align="center">
         <tr>
             <th colspan="3"> EDUCATIONAL BACKGROUND</th>
         </tr>
         <tr>
-            <th> LEVEL</th>
-            <th> SCHOOL</th>
-            <th> YEAR </th>
+            <td> LEVEL</td>
+            <td> SCHOOL</td>
+            <td> YEAR </td>
         </tr>
  <tr>
             <td> PRIMARY</td>
@@ -76,41 +89,43 @@
     </table>
 
     <!-- Unordered List of My Hobbies-->
-    <h2><strong>MY HOBBIES</strong></h2> 
+     <div class="card"
+    <h2>MY HOBBIES</h2> 
        <ul type="disc">
         <li>Coding-I enjoy writing programs and solving problems using different programming languages.</li>
         <li>Problem solving- I like solving logical and mathematical problems which help improve my thinking skills.</li>
         <li>Learning new technologies- I like exploring new tools and teechnologies such as Programming languages and wed development tools to improve my skills.</li>
         <li>Watching movies- I like watching movies as a way of relaxation and learning new ideas in life which help me to well with my society.</li>
        </ul>
+    </div>
 
        <!--Images-->
-       <p><h2><b>IMAGES RELATED TO MY HOBBIES</b></h2></p>
-    <img src="../images/coding image.jpg" alt="Coding activity" height="100" width="100">
-
-    <p>Coding</p>
-
-    <img src="../images/movie image.jpg" alt="Movie watching" height="100" width="100">
-
-    <p>Watching movies</p>
-
+       <p><h2>IMAGES RELATED TO MY HOBBIES</h2></p>
+       <div class="img1-top">
+    <img src="/images/coding image.jpg" alt="Coding activity" height="100" width="100">
+       </div>
+        <p>Coding</p>
+         <div class="img2-top">
+    <img src="/images/movie image.jpg" alt="Movie watching" height="100" width="100">
+       </div>
+         <p>Watching movies</p>
     <!-- Unordered List of My Favorite Links-->
-    <h2><b>MY FAVORITE LINKS</b></h2>
-    <ul type="disc">
-        <li><a href="https://www.google.com/">Google</a></li>
-        <li><a href="https://www.github.com/">GitHub</a></li>
-        <li><a href="https://www.youtube.com./">Youtube</a></li>
-        <li><a href="https://www.wikipedia.org/">Wikipedia</a></li>
-    </ul>
-    
-    <p><h2><b>CONTACT INFORMATION</b></h2></p>
+    <h2>MY FAVORITE LINKS</h2>
+    <div class="bottom-links">
+        <a href="https://www.google.com/">Google</a>
+        <a href="https://www.github.com/">GitHub</a>
+        <a href="https://www.youtube.com./">Youtube</a>
+        <a href="https://www.wikipedia.org/">Wikipedia</a>
+    </div>
+    <p><h2 id="Contacts">CONTACT INFORMATION</h2></p>
     <p>Email: jacklinekadeha0@gmail.com</p>
     <p>Phone: +255 761916940</p>
-
-
-    <footer>
-    <p><a href="#top">↑ Back to Top</a></p>
-    <p style="margin-top:8px;">&copy; 2026 Jackline. All rights reserved.</p>
+<footer>
+    <center>
+<p><a href="#top"> Back to top</a></p>
+<p style="margin-top:8px;">&copy; 2026 Jackline.All right Reserved</p>
+</div>
+</center>
 </footer>
 </body>
 </html>
